@@ -1,0 +1,80 @@
+﻿Build started 9/20/2016 6:50:33 AM.
+     1>Project "C:\Users\Jonathan_Moore\Documents\NBIC\VST Framework\AAX_SDK\AAX_SDK_2p2p1\Libs\AAXLibrary\WinBuild\vs2012\AAXLibrary.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include /I..\..\..\..\Interfaces /I..\..\..\..\Interfaces\ACF /Zi /nologo /Wall /WX /O2 /Ob2 /Oi /Ot /Oy /GL /D NDEBUG /D WIN32 /D _WINDOWS /D I18N_LIB /D PLUGIN_SDK_BUILD /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D AAX_PLUGIN_BUILD /Gm- /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"int\Release\AAXLibrary\x64\\" /Fd"int\Release\AAXLibrary\x64\vc110.pdb" /Gd /TP /wd4820 /wd4514 /wd4710 /wd4625 /wd4626 /wd4668 /wd4986 /wd4987 /wd4127 /wd4711 /wd4350 /errorReport:prompt /MP ..\..\source\AAX_CAutoreleasePool.Win.cpp ..\..\source\AAX_CChunkDataParser.cpp ..\..\source\AAX_CEffectDirectData.cpp ..\..\source\AAX_CEffectGUI.cpp ..\..\source\AAX_CEffectParameters.cpp ..\..\source\AAX_CHostProcessor.cpp ..\..\source\AAX_CHostServices.cpp ..\..\source\AAX_CMutex.cpp ..\..\source\AAX_CommonConversions.cpp ..\..\source\AAX_CPacketDispatcher.cpp ..\..\source\AAX_CParameter.cpp ..\..\source\AAX_CParameterManager.cpp ..\..\source\AAX_CString.cpp ..\..\source\AAX_IEffectDirectData.cpp ..\..\source\AAX_IEffectGUI.cpp ..\..\source\AAX_IEffectParameters.cpp ..\..\source\AAX_IHostProcessor.cpp ..\..\source\AAX_Init.cpp ..\..\source\AAX_Properties.cpp ..\..\source\AAX_SliderConversions.cpp ..\..\source\AAX_VAutomationDelegate.cpp ..\..\source\AAX_VCollection.cpp ..\..\source\AAX_VComponentDescriptor.cpp ..\..\source\AAX_VController.cpp ..\..\source\AAX_VEffectDescriptor.cpp ..\..\source\AAX_VHostProcessorDelegate.cpp ..\..\source\AAX_VHostServices.cpp ..\..\source\AAX_VPrivateDataAccess.cpp ..\..\source\AAX_VPropertyMap.cpp ..\..\source\AAX_VTransport.cpp ..\..\source\AAX_VViewContainer.cpp ..\..\source\AAX_CACFUnknown.cpp ..\..\source\AAX_CUIDs.cpp ..\..\..\..\Interfaces\ACF\CACFClassFactory.cpp
+         AAX_CAutoreleasePool.Win.cpp
+         AAX_CChunkDataParser.cpp
+         AAX_CEffectDirectData.cpp
+         AAX_CEffectGUI.cpp
+         AAX_CEffectParameters.cpp
+         AAX_CHostProcessor.cpp
+         AAX_CHostServices.cpp
+         AAX_CMutex.cpp
+         AAX_CommonConversions.cpp
+         AAX_CPacketDispatcher.cpp
+         AAX_CParameter.cpp
+         AAX_CParameterManager.cpp
+         AAX_CString.cpp
+         AAX_IEffectDirectData.cpp
+         AAX_IEffectGUI.cpp
+         AAX_IEffectParameters.cpp
+         AAX_IHostProcessor.cpp
+         AAX_Init.cpp
+         AAX_Properties.cpp
+         AAX_SliderConversions.cpp
+         AAX_VAutomationDelegate.cpp
+         AAX_VCollection.cpp
+         AAX_VComponentDescriptor.cpp
+         AAX_VController.cpp
+         AAX_VEffectDescriptor.cpp
+         AAX_VHostProcessorDelegate.cpp
+         AAX_VHostServices.cpp
+         AAX_VPrivateDataAccess.cpp
+         AAX_VPropertyMap.cpp
+         AAX_VTransport.cpp
+         AAX_VViewContainer.cpp
+         AAX_CACFUnknown.cpp
+         AAX_CUIDs.cpp
+         CACFClassFactory.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\..\..\Release\AAXLibrary_x64.lib" /NOLOGO /MACHINE:X64 int\Release\AAXLibrary\x64\AAX_CAutoreleasePool.Win.obj
+         int\Release\AAXLibrary\x64\AAX_CChunkDataParser.obj
+         int\Release\AAXLibrary\x64\AAX_CEffectDirectData.obj
+         int\Release\AAXLibrary\x64\AAX_CEffectGUI.obj
+         int\Release\AAXLibrary\x64\AAX_CEffectParameters.obj
+         int\Release\AAXLibrary\x64\AAX_CHostProcessor.obj
+         int\Release\AAXLibrary\x64\AAX_CHostServices.obj
+         int\Release\AAXLibrary\x64\AAX_CMutex.obj
+         int\Release\AAXLibrary\x64\AAX_CommonConversions.obj
+         int\Release\AAXLibrary\x64\AAX_CPacketDispatcher.obj
+         int\Release\AAXLibrary\x64\AAX_CParameter.obj
+         int\Release\AAXLibrary\x64\AAX_CParameterManager.obj
+         int\Release\AAXLibrary\x64\AAX_CString.obj
+         int\Release\AAXLibrary\x64\AAX_IEffectDirectData.obj
+         int\Release\AAXLibrary\x64\AAX_IEffectGUI.obj
+         int\Release\AAXLibrary\x64\AAX_IEffectParameters.obj
+         int\Release\AAXLibrary\x64\AAX_IHostProcessor.obj
+         int\Release\AAXLibrary\x64\AAX_Init.obj
+         int\Release\AAXLibrary\x64\AAX_Properties.obj
+         int\Release\AAXLibrary\x64\AAX_SliderConversions.obj
+         int\Release\AAXLibrary\x64\AAX_VAutomationDelegate.obj
+         int\Release\AAXLibrary\x64\AAX_VCollection.obj
+         int\Release\AAXLibrary\x64\AAX_VComponentDescriptor.obj
+         int\Release\AAXLibrary\x64\AAX_VController.obj
+         int\Release\AAXLibrary\x64\AAX_VEffectDescriptor.obj
+         int\Release\AAXLibrary\x64\AAX_VHostProcessorDelegate.obj
+         int\Release\AAXLibrary\x64\AAX_VHostServices.obj
+         int\Release\AAXLibrary\x64\AAX_VPrivateDataAccess.obj
+         int\Release\AAXLibrary\x64\AAX_VPropertyMap.obj
+         int\Release\AAXLibrary\x64\AAX_VTransport.obj
+         int\Release\AAXLibrary\x64\AAX_VViewContainer.obj
+         int\Release\AAXLibrary\x64\AAX_CACFUnknown.obj
+         int\Release\AAXLibrary\x64\AAX_CUIDs.obj
+         int\Release\AAXLibrary\x64\CACFClassFactory.obj
+         CACFClassFactory.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+         AAXLibrary.vcxproj -> C:\Users\Jonathan_Moore\Documents\NBIC\VST Framework\AAX_SDK\AAX_SDK_2p2p1\Libs\AAXLibrary\WinBuild\vs2012\..\..\..\Release\AAXLibrary_x64.lib
+     1>Done Building Project "C:\Users\Jonathan_Moore\Documents\NBIC\VST Framework\AAX_SDK\AAX_SDK_2p2p1\Libs\AAXLibrary\WinBuild\vs2012\AAXLibrary.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.14

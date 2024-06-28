@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00097.html" title="Defines the taper conversion behavior for a parameter. " alt="" coords="5,155,181,181"/>
+<area shape="rect" id="node2" href="$a00096.html" title="Classes for conversion to and from normalized parameter values. " alt="" coords="229,155,406,181"/>
+<area shape="rect" id="node3" href="$a00011.html" title="A binary taper conforming to AAX_ITaperDelegate. " alt="" coords="454,5,674,30"/>
+<area shape="rect" id="node4" href="$a00019.html" title="A linear taper conforming to AAX_ITaperDelegate. " alt="" coords="470,54,658,93"/>
+<area shape="rect" id="node5" href="$a00020.html" title="A logarithmic taper conforming to AAX_ITaperDelegate. " alt="" coords="477,117,651,155"/>
+<area shape="rect" id="node6" href="$a00034.html" title="A piece&#45;wise linear taper conforming to AAX_ITaperDelegate. " alt="" coords="465,179,663,218"/>
+<area shape="rect" id="node7" href="$a00035.html" title="A piecewise&#45;linear taper conforming to AAX_ITaperDelegate. " alt="" coords="468,242,660,281"/>
+<area shape="rect" id="node8" href="$a00037.html" title="A linear taper conforming to AAX_ITaperDelegate. " alt="" coords="457,305,671,330"/>
+</map>

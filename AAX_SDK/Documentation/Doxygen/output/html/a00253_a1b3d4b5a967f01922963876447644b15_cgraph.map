@@ -1,0 +1,6 @@
+<map id="AAX::AsStringPropertyValue" name="AAX::AsStringPropertyValue">
+<area shape="rect" id="node2" href="$a00253.html#a22eda3cc42cb4ea2192b00bab7a69b02" title="AAX::AsStringFourChar" alt="" coords="243,5,405,30"/>
+<area shape="rect" id="node4" href="$a00253.html#a690ffc499da04ea963fff3bf8d6174fb" title="AAX::Binary2String" alt="" coords="256,54,392,79"/>
+<area shape="rect" id="node5" href="$a00253.html#a00fbf59b268ca75214b2dad68be8ff77" title="AAX::IsFourCharASCII" alt="" coords="246,103,402,129"/>
+<area shape="rect" id="node3" href="$a00253.html#aa8ebc6a8ee1232c4ffec828bff3c2998" title="AAX::IsASCII" alt="" coords="454,54,554,79"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="AAX_SInstrumentRenderInfo" name="AAX_SInstrumentRenderInfo">
+<area shape="rect" id="node2" href="$a00104.html" title="Utility struct for AAX_CMonolithicParameters. " alt="" coords="2496,157,2693,182"/>
+<area shape="rect" id="node3" href="$a00023.html" title="Extension of the AAX_CEffectParameters class for monolithic VIs and effects. " alt="" coords="2091,157,2285,182"/>
+<area shape="rect" id="node4" href="$a00016.html" title="Default implementation of the AAX_IEffectParameters interface. " alt="" coords="1872,157,2040,182"/>
+<area shape="rect" id="node5" href="$a00083.html" title="The interface for an AAX Plug&#45;in&#39;s data model. " alt="" coords="1538,55,1700,81"/>
+<area shape="rect" id="node6" href="$a00056.html" title="Supplemental interface for an AAX Plug&#45;in&#39;s data model. " alt="" coords="1142,55,1354,81"/>
+<area shape="rect" id="node7" href="$a00055.html" title="Supplemental interface for an AAX Plug&#45;in&#39;s data model. " alt="" coords="822,55,1034,81"/>
+<area shape="rect" id="node8" href="$a00054.html" title="The interface for an AAX Plug&#45;in&#39;s data model. " alt="" coords="424,17,613,42"/>
+<area shape="rect" id="node9" href="$a00123.html" title="COM compatible IUnknown C++ interface. " alt="" coords="189,17,296,42"/>
+<area shape="rect" id="node11" href="$a00028.html" title="Helper class for managing AAX packet posting. " alt="" coords="1534,106,1703,131"/>
+<area shape="rect" id="node13" title="STL class. " alt="" coords="203,229,282,254"/>
+<area shape="rect" id="node23" href="$a00038.html" title="A generic AAX string class with similar functionality to std::string. " alt="" coords="469,279,569,305"/>
+<area shape="rect" id="node14" title="STL class. " alt="" coords="5,222,131,261"/>
+<area shape="rect" id="node15" href="$a00031.html" title="A container object for plug&#45;in parameters. " alt="" coords="838,142,1018,167"/>
+<area shape="rect" id="node17" href="$a00090.html" title="The base interface for all normalizable plug&#45;in parameters. " alt="" coords="182,95,303,121"/>
+<area shape="rect" id="node19" href="$a00071.html" title="Interface allowing an AAX plug&#45;in to interact with the host&#39;s event system. " alt="" coords="429,178,609,203"/>
+<area shape="rect" id="node20" href="$a00012.html" title="Parser utility for plugin chunks. " alt="" coords="1533,265,1704,290"/>
+<area shape="rect" id="node22" href="$a00122.html" title="AAX_CChunkDataParser\l::DataValue" alt="" coords="842,270,1014,309"/>
+<area shape="rect" id="node24" href="$a00095.html" title="A simple string container that can be passed across a binary boundary. This class, for simplicity, is not versioned and thus can never change. " alt="" coords="196,317,290,342"/>
+<area shape="rect" id="node25" href="$a00088.html" title="Interface for accessing information in a MIDI node. " alt="" coords="2535,241,2654,266"/>
+</map>

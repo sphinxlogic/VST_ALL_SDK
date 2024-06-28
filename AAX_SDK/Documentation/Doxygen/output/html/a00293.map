@@ -1,0 +1,12 @@
+<map id="Additional AAX features" name="Additional AAX features">
+<area shape="rect" id="node1" href="$a00284.html" title="AAX SDK Manual" alt="" coords="6,229,133,254"/>
+<area shape="rect" id="node2" href="$a00299.html" title="Routing custom audio streams to a plug&#45;in. " alt="" coords="433,5,553,30"/>
+<area shape="rect" id="node3" href="$a00300.html" title="Routing custom audio streams from a plug&#45;in. " alt="" coords="415,54,572,79"/>
+<area shape="rect" id="node4" href="$a00302.html" title="Background processing support for AAX DSP and Native plug&#45;in algorithms. " alt="" coords="413,103,574,142"/>
+<area shape="rect" id="node5" href="$a00294.html" title="A host interface providing direct access to a plug&#45;in&#39;s algorithm memory. " alt="" coords="428,166,559,205"/>
+<area shape="rect" id="node6" href="$a00301.html" title="DMA support for AAX DSP plug&#45;ins, with emulation for AAX Native. " alt="" coords="416,229,570,254"/>
+<area shape="rect" id="node8" href="$a00296.html" title="An architecture combining low&#45;latency and high&#45;latency audio processing. " alt="" coords="392,278,595,303"/>
+<area shape="rect" id="node9" href="$a00297.html" title="How to route and process MIDI in AAX plug&#45;ins. " alt="" coords="469,327,518,353"/>
+<area shape="rect" id="node10" href="$a00295.html" title="Advanced offline processing features. " alt="" coords="429,377,557,415"/>
+<area shape="rect" id="node11" href="$a00298.html" title="How to manage metering data for AAX plug&#45;ins. " alt="" coords="440,439,547,465"/>
+</map>

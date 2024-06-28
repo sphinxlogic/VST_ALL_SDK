@@ -1,0 +1,400 @@
+/*===================================================================================================
+AAX_SDK_Changelog.dox
+
+Copyright 2016 by Avid Technology, Inc. 
+All rights reserved.
+
+===================================================================================================*/
+
+
+
+/** @defgroup ChangeLog Change Log
+	@ingroup AdditionalInformation
+	
+	@brief Changes between %AAX SDK versions
+
+\section changelog Change Log
+
+\subsection aax_sdk_2p2p1 AAX SDK 2.2.1
+  \subsubsection aax_sdk_2p2p1_Interface Interface
+  <UL>
+    <LI>
+    	New interfaces:
+    	<UL>
+    	  <LI>\ref AAX_IACFController_V3</LI>
+		</UL>
+    </LI>
+  </UL>
+  \subsubsection aax_sdk_2p2p1_Documentation Documentation
+  <UL>
+    <LI>Added the \ref AAX_VENUE_Guide page</LI>
+    <LI>
+      Updated the \ref AAX_Page_Table_Guide
+      <UL>
+        <LI>Updated VENUE information: Added information about \ref subsubsection__venue_s6l and \ref subsubsection__venue_s3l and removed information about VENUE systems which do not support %AAX plug-ins</LI>
+        <LI>Added information for S6, including details about the <TT>'Av46'</TT> page table type and a new section on \ref aax_page_table_guide_04_avid_center_section_page_tables_venue_s6_mapping</LI>
+        <LI>Added information about quickly \ref subsection_testing_xml_resources</LI>
+      </UL>
+    </LI>
+    <LI>Updated the documentation for \ref advancedTopics_relatedTypes, including a new section describing \ref advancedTopics_relatedTypes_deprecation</LI>
+    <LI>Fixed image display problems on the \ref DSH_Guide page</LI>
+    <LI>
+      Added pre-built HDX DLL files to the SDK for all example plug-ins which support %AAX DSP
+      \note The example plug-ins' Visual Studio projects now include a <TT>PostBuildEvent</TT> command which will copy the plug-in's HDX DLL from the project's TI/bin/Release folder to the built .aaxplugin's Resources folder.
+    </LI>
+    <LI>
+      Additional minor example plug-in fixes
+      <UL>
+        <LI>Removed unnecessary build phases and framework dependencies from the plug-ins' Xcode projects</LI>
+        <LI>Removed "AAX" from the example plug-ins' display names</LI>
+        <LI>Changed the guard for %AAX DSP cycle count declarations to check for the definition of the <TT>AAX_TI_BINARY_IN_DEVELOPMENT</TT> preprocessor symbol before adding cycle counts to the plug-in's description</LI>
+        <LI>Added "example" to the names of all example plug-ins</LI>
+      </UL>
+    </LI>
+  </UL>
+  \subsubsection aax_sdk_2p2p1_AAX_Library AAX Library
+  <UL>
+    <LI>Extended \ref AAX_CParameter::GetValueAsString() and \ref AAX_CParameter::SetValueWithString() with support for all value types</LI>
+    <LI>Fixed the specialization of \ref AAX_CPacket::GetPtr() for <TT>void*</TT> so that it is called when the <TT>void*</TT> version of the function template is requested</LI>
+  </UL>
+  \subsubsection aax_sdk_2p2p1_Definitions Definitions
+  <UL>
+    <LI>Added \ref AAX_ePlugInStrings_ClipNameSuffix</LI>
+    <LI>Added a definition of the <TT>TI_VERSION</TT> preprocessor macro for the TI DSP compiler in AAX.h</LI>
+  </UL>
+
+
+\subsection aax_sdk_2p2p0 AAX SDK 2.2.0
+  \subsubsection aax_sdk_2p2p0_Interface Interface
+  <UL>
+    <LI>
+    	New interfaces:
+    	<UL>
+    	  <LI>\ref AAX_IACFEffectParameters_V3</LI>
+		  <LI>\ref AAX_IACFHostProcessor_V2</LI>
+		  <LI>\ref AAX_IACFHostProcessorDelegate_V3</LI>
+		  <LI>\ref AAX_IACFHostServices_V2</LI>
+		  <LI>\ref AAX_IACFViewContainer_V2</LI>
+		</UL>
+    </LI>
+  </UL>
+  \subsubsection aax_sdk_2p2p0_Directory_changes Directory changes
+  <UL>
+    <LI>Moved common processing classes for the SDK example plug-ins to ExamplePlugIns/Common/ProcessingClasses</LI>
+    <LI>Moved MIDI logging utilities to the Extensions folder</LI>
+    <LI>Moved \ref AAX_CMonolithicParameters to the Extensions folder and removed it from the %AAX Library</LI>
+  </UL>
+  \subsubsection aax_sdk_2p0p0_Extensions Extensions
+  <UL>
+    <LI>Changed VST project to use the newest version of VSTGUI sources - VSTGUI 4.2</LI>
+    <LI>Created Visual Studio 2012 projects for GUI Extensions</LI>
+    <LI>
+    	Fixed \ref AAX_CMonolithicParameters so that it correctly supports \ref AAX_eConstraintLocationMask_DataModel
+    	\note This value is <b>required</b> for all plug-ins that share memory between their data model and algorithm callback
+    </LI>
+    <LI>Updated \ref AAX_CMonolithicParameters to include parameter value synchronization</LI>
+    <LI>Updated \ref AAX_CMonolithicParameters to support Hybrid and include a state counter field</LI>
+  </UL>
+  \subsubsection aax_sdk_2p2p0_Definitions Definitions
+  <UL>
+    <LI>Changed name of <TT>AAX_eProperty_StoreXMLPageTablesByType</TT> to \ref AAX_eProperty_StoreXMLPageTablesByEffect to best reflect the actual behavior of this property</LI>
+    <LI>Replaced \ref AAX_EPlugInCategory_Effect category (erroneously removed in %AAX SDK 2.1)</LI>
+  </UL>
+  \subsubsection aax_sdk_2p2p0_Utilities Utilities
+  <UL>
+    <LI>Added utilities for atomic operations and a thread-safe FIFO queue class: \ref AAX_CAtomicQueue</LI>
+    <LI>Added %AAX stacktrace logging support to make plug-in debugging easier: see \ref AAX_STACKTRACE and \ref AAX_TRACEORSTACKTRACE</LI>
+    <LI>Added a utility for locating the .aaxplugin bundle to provide an ability to access resources in the bundle</LI>
+  </UL>
+  \subsubsection aax_sdk_2p2p0_AAX_Library AAX Library
+  <UL>
+    <LI>Created an %AAX Library project for Visual Studio 2012</LI>
+    <LI>Created a libc++ target in the %AAX Library Xcode project</LI>
+    <LI>Resolved "incompatible ms_struct" warning in Xcode 6; removed \ref AAX_ALIGN_FILE_ALG from inappropriate locations such as virtual classes that do not cross library boundaries</LI>
+    <LI>Added \ref AAX_IParameterValue, an abstract value class for parameter data, and refactored \ref AAX_CParameter to use this interface</LI>
+    <LI>Re-named <TT>AAX_CInstrumentParameters</TT> to \ref AAX_CMonolithicParameters (see the \ref aax_sdk_2p0p0_Extensions section for more information)</LI>
+    <LI>Added an \ref AAX_CStateDisplayDelegate constructor taking <TT>std::vector<AAX_IString*></TT></LI>
+    <LI>Added an \ref AAX_CParameter constructor taking \ref AAX_IString as an identifier</LI>
+    <LI>Added hex conversion methods to \ref AAX_CString</LI>
+    <LI>Fixed chunk size error handling in \ref AAX_CChunkDataParser</LI>
+  </UL>
+  \subsubsection aax_sdk_2p2p0_Example_plugins Example plug-ins
+  <UL>
+    <LI>Added \ref DemoMIDI_Synth and \ref DemoMIDI_Synth_AuxOutput plug-ins</LI>
+    <LI>Created Visual Studio 2012 projects for all example plug-ins</LI>
+    <LI>Added EUCON page tables for all example plug-ins</LI>
+    <LI>Various fixes for modifier-click event handling in example plug-ins</LI>
+    <LI>Updated the example plug-in projects so that all built plug-in bundle filenames include "_Example"</LI>
+    <LI>Corrected input/output property usage in HostProcessor example plug-ins</LI>
+    <LI>Fixed multi-channel processing in \ref DemoDelay_HostProcessor</LI>
+    <LI>Fixed a bug with dynamic processing in \ref DemoMIDI_NoteOn example plug-in</LI>
+    <LI>Fixed \ref DemoGain_GUIExtensions Win32 example plug-in GUI so that it is correctly displayed in Windows 8</LI>
+  </UL>
+  \subsubsection aax_sdk_2p2p0_Documentation Documentation
+  <UL>
+    <LI>Added \ref AAX_Media_Composer_Guide</LI>
+    <LI>Updated \ref HostSupport documentation for latest %AAX host versions</LI>
+    <LI>
+    	Updated the \ref AAX_Page_Table_Guide
+    	<UL>
+    		<LI>Updated \ref aax_page_table_guide__eucon_page_tables documentation</LI>
+    		<LI>Updated \ref aax_page_table_guide_04_avid_center_section_page_tables documentation with tables mapping the EQ, Comp/Lim, and Exp/Gate table indices to their respective functions</LI>
+    	</UL>
+    </LI>
+    <LI>Updated \ref AAX_EMIDINodeType "MIDI node" documentation</LI>
+    <LI>Added new documentation pages for \ref advancedTopics_parameterUpdateTiming and \ref advancedTopics_ParameterAutomation</LI>
+    <LI>Improved \ref subsection__presets_and_settings_management documentation</LI>
+    <LI>Documented the \ref subsubsection__plugin_configuration_cacheing_ "plug-in caching" behavior in Pro Tools</LI>
+    <LI>Added documentation for optimizing an %AAX DSP plug-in by using a hard-coded buffer size in the algorithm callback/ See the \ref subsection__refactoring_conditionals_and_branches section of the \ref AAX_TI_Guide</LI>
+  </UL>
+
+\subsection aax_sdk_2p1p1 AAX SDK 2.1.1
+  \subsubsection aax_sdk_2p1p1_Definitions Definitions
+  <UL>
+    <LI>Explicitly removed support for the SDK's C99Compatibility headers in Microsoft Visual C++ 10.0 and later</LI>
+  </UL>
+  \subsubsection aax_sdk_2p1p1_DSP DSP
+  <UL>
+    <LI>Added support and documentation for compiling %AAX DSP plug-ins using Code Composer Studio 5</LI>
+    <LI>Updated all example plug-in projects for use with Code Composer Studio 5</LI>
+  </UL>
+  \subsubsection aax_sdk_2p1p1_Documentation Documentation
+  <UL>
+    <LI>Extended the \ref advancedTopics_ParameterUpdates "parameter update documentation pages" with sequence diagrams and further information about linked parameter behavior</LI>
+    <LI>Added guides for \ref AAX_DigiTrace_Guide "DigiTrace" and \ref DSH_Guide "DSH"</LI>
+    <LI>Added a reference list of \ref aax_interfacelist "AAX interfaces"</LI>
+  </UL>
+
+\subsection aax_sdk_2p1p0 AAX SDK 2.1.0
+  \subsubsection aax_sdk_2p1p0_Interface Interface
+  <UL>
+    <LI>New method added to \ref AAX_IACFTransport_V2 : \ref AAX_IACFTransport_V2::IsMetronomeEnabled() "IsMetronomeEnabled()"</LI>
+  </UL>
+  \subsubsection aax_sdk_2p1p0_AAXLibrary AAX Library
+  <UL>
+    <LI>New methods in AAX_CString for direct copy from, assignment to, and comparison with std::string </LI>
+    <LI>Fixed many implicit sign conversions </LI>
+    <LI>Added \c const qualification to some AAX_C... methods </LI>
+    <LI>Updated \ref AAX_IParameter::GetValueAsString() to take a pointer-to \ref AAX_IString (was lvalue ref) </LI>
+    <LI>Fixed a bug in \ref AAX_CEffectParameters::GetParameterNameOfLength(); the method now correctly truncates a parameter name if the requested length is shorter than the shortest available abbreviated name </LI>
+    <LI>Treat Warnings As Errors enabled in %AAX Library projects </LI>
+    <LI>clang pragmas added to avoid warnings for non-virtual destructors in ACF interface classes (cf. Microsoft COM) </LI>
+    <LI>Xcode 3 project added for the %AAX Library </LI>
+  </UL>
+  \subsubsection aax_sdk_2p1p0_Definitions Definitions
+  <UL>
+    <LI>Alignment of \ref AAX_CMidiPacket and \ref AAX_CMidiStream on 32-bit OS X is now explicitly set using <TT>\#pragma options align=power</TT> to maintain backwards-compatibility with earlier versions of Pro Tools
+    <LI>New property added: \ref AAX_eProperty_RequiresChunkCallsOnMainThread </LI>
+    <LI>New property added: \ref AAX_eProperty_Constraint_AlwaysProcess </LI>
+    <LI>Converted \c AAX_eProperty_Related_Plugin_List (property #22) to dedicated \ref AAX_eProperty_Related_DSP_Plugin_List "DSP" and \ref AAX_eProperty_Related_Native_Plugin_List "Native" versions
+    <LI>Re-named AAX_eProperty_AudioBufferLength to \ref AAX_eProperty_DSP_AudioBufferLength
+    <LI>Added new \ref AAX_ECurveType selector: \ref AAX_eCurveType_Reduction </LI>
+    <LI>Added various new selectors to \ref AAX_ENotificationEvent </LI>
+    <LI>Updated \ref AAX_STEM_FORMAT macros to allow negative index values </LI>
+    <LI>Added new error codes to \ref AAX_EError
+  </UL>
+  \subsubsection aax_sdk_2p1p0_Utilities Utilities
+  <UL>
+    <LI>New utility functions: \c AAX::IsAvidNotification(), \c AAX_IsASCII(), \c AAX_AsStringFourChar() </LI>
+    <LI>AAX_ASSERT and AAX_TRACE now require a trailing semicolon </LI>
+    <LI>Re-named \c LIMIT to \ref AAX_LIMIT </LI>
+    <LI>Removed unused extended-80 conversion utilities </LI>
+  </UL>
+  \subsubsection aax_sdk_2p1p0_Extensions Extensions
+  <UL>
+    <LI>Resolved issue in which VSTGUI v4 key events were not received on Windows </LI>
+    <LI>Xcode 3 projects added for the Juce and VSTGUI extension libraries </LI>
+  </UL>
+  \subsubsection aax_sdk_2p1p0_Documentation Documentation
+  <UL>
+    <LI>.pdf documentation moved to Doxygen </LI>
+    <LI>Added several new sample plug-ins </LI>
+    <LI>Expanded documentation for Host Processor and %AAX Hybrid </LI>
+  </UL>
+  
+
+
+\subsection aax_sdk_2p0p1 AAX SDK 2.0.1
+
+\subsection aax_sdk_2p0p0 AAX SDK 2.0.0
+  \subsubsection aax_sdk_2p0p0_aax aax
+  <UL>
+    <LI>Added support for the %AAX Hybrid processing architecture</LI>
+    <LI>Added methods for better access to global MIDI data from \ref AAX_IEffectParameters </LI>
+    <LI>Extended the \ref AAX_ITransport interface with several new methods</LI>
+    <LI>Host Processor plug-ins can now trigger an analysis pass programmatically </LI>
+  </UL>
+  \subsubsection aax_sdk_2p0p0_Definitions Definitions
+  <UL>
+    <LI>Added new selectors to \ref AAX_ENotificationEvent for state information during AudioSuite, bounce, and restore events </LI>
+    <LI>AudioSuite reverb and delay plug-ins may opt out of the "Reverse" processing mode
+  </UL>
+  \subsubsection aax_sdk_2p0p0_Algorithm Algorithm
+  <UL>
+    <LI>Support for temporary algorithm data blocks</LI>
+  </UL>
+
+\subsection aax_sdk_1p5p0 AAX SDK 1.5.0
+  \subsubsection aax_sdk_1p5p0_AAXLibrary AAX Library
+  <UL>
+    <LI>Plug-ins now receive a different notification when receiving chunks from session and preset loads</LI>
+    <LI>Aux output stems now support up to 256 output channels</LI>
+    <LI>Added alpha versions of V2 interfaces</LI>
+    <LI>Added projects for Visual Studio 2005 and 2008</LI>
+  </UL>
+
+
+\subsection aax_sdk_1p0p6 AAX SDK 1.0.6
+  \subsubsection aax_sdk_1p0p6_Documentation Documentation
+  <UL>
+    <LI>64-bit targets enabled for the %AAX Library and sample plug-ins</LI>
+  </UL>
+
+  \subsubsection aax_sdk_1p0p6_AAXLibrary AAX Library
+  <UL>
+    <LI>Changed scope of some methods in AAX_CEffectParameters and AAX_CEffectGUI</LI>
+    <LI>New 8 byte structure alignment added to AAX.h</LI>
+    <LI>Changed the scope of some chunk parser items</LI>
+    <LI>Clock context field is set to be synchronized across multiple plug-in instances</LI>
+    <LI>Support for multiple input MIDI nodes</LI>
+    <LI>Support for multiple named Aux Outputs (AAX_CInstrumentParameters)</LI>
+    <LI>Instrument parameters no longer uses host generated GUI by default</LI>
+  </UL>
+
+  \subsubsection aax_sdk_1p0p6_DSP DSP
+  <UL>
+    <LI>Algorithm initialization routine now has 5 seconds to execute</LI>
+  </UL>
+
+
+\subsection aax_sdk_1p0p5 AAX SDK 1.0.5
+  \subsubsection aax_sdk_1p0p5_DirectoryChanges Directory Changes
+  <UL>
+    <LI>Removed 3 files in /ExamplePlugIns/Common</LI>
+    <LI>Added AAX_UtilsNative.h and AAX_Version.h</LI>
+    <LI>Moved AAXLog(), AAXLogf(), and isParameterIDEqual() to AAX_UtilsNative.h</LI>
+  </UL>
+
+  \subsubsection aax_sdk_1p0p5_Documentation Documentation
+  <UL>
+    <LI>Fixed instance tracking bugs in DemoGain_BackGround</LI>
+    <LI>Added a time-stamp parameter to DemoMIDI_NoteOn</LI>
+    <LI>Added MIDI-through to DemoMIDI_NoteOn</LI>
+    <LI>Added DemoGain_DMA sample plug-in</LI>
+  </UL>
+
+  \subsubsection aax_sdk_1p0p5_AAXLibrary AAX Library
+  <UL>
+    <LI>Changed scope of some methods in AAX_CEffectParameters</LI>
+    <LI>Set default number of steps in AAX_CParameter.h to non-zero</LI>
+    <LI>Renamed enum AAX_EConstraintLocation to AAX_EConstraintLocationMask</LI>
+  </UL>
+
+  \subsubsection aax_sdk_1p0p5_DSP DSP
+  <UL>
+    <LI>Larger buffer size allowed on TI</LI>
+    <LI>Support for DLL chip affinity in Pro Tools 10.2 and higher</LI>
+    <LI>New AAX_INT_LO and AAX_INT_HI utilities defined</LI>
+  </UL>
+
+
+\subsection aax_sdk_1p0p4 AAX SDK 1.0.4
+
+  \subsubsection aax_sdk_1p0p4_Describe Describe
+  <UL>
+    <LI>Multi-mono support constraint property added
+      <UL>
+      <LI>Will be supported in DAE versions 10.2 and higher</LI>
+      </UL></LI>
+  </UL>
+  
+  \subsubsection aax_sdk_1p0p4_AAXLibrary AAX Library
+  <UL>
+    <LI>AAX_CInstrumentParameters class added as helper for monolithic instruments</LI>
+    <LI>AAX_CTimestamp type changed to signed 64-bit integer</LI>
+    <LI>Maximum string length support added to binary display delegate</LI>
+  </UL>
+  
+  \subsubsection aax_sdk_1p0p4_Documentation Documentation
+  <UL>
+    <LI>Resolved several DemoGain_GUIExtensions example plug-in bugs and improved
+    parity with expected Pro Tools plug-in GUI features</LI>
+    <LI>Added DemoMIDI_Sampler example plug-in</LI>
+    <LI>Added /TI/SignalProcessing directory with example signal processing utilities</LI>
+    <LI>Added new "AAX for Pro Tools" document (still in progress)</LI>
+  </UL>
+  
+
+\subsection aax_sdk_1p0p3 AAX SDK 1.0.3
+
+  \subsubsection aax_sdk_1p0p3_Describe Describe
+  <UL>
+    <LI>Added "deprecated type" feature for swapping in new Effect types</LI>
+    <LI>Removed AAX_eProperty_TI_UncachedCycleCount</LI>
+    <LI>Removed AAX_eProperty_UseSmallPreviewBuffer, as this property is now mandatory</LI>
+  </UL>
+
+  \subsubsection aax_sdk_1p0p3_Algorithm Algorithm
+  <UL>
+    <LI>Established 1024 as the maximum expected audio buffer length for any %AAX plug-in</LI>
+    <LI>Created new instance initialization action flag for instance reset events</LI>
+  </UL>
+
+  \subsubsection aax_sdk_1p0p3_AAXLibrary AAX Library
+  <UL>
+    <LI>Fixed reference-counting bug in AAXRegisterPlugin()</LI>
+  </UL>
+  
+  \subsubsection aax_sdk_1p0p3_DSP DSP
+  <UL>
+    <LI>Extra software pipeline information added to CCS asm output by default</LI>
+    <LI>External memory support added to default CommonPlugIn_LinkerCmd.cmd file
+      <UL>
+      <LI>ExtendedPlugIn_LinkerCmd.cmd is now deprecated</LI>
+      </UL></LI>
+  </UL>
+
+  \subsubsection aax_sdk_1p0p3_Utilities Utilities
+  <UL>
+    <LI>DigiTrace facility for AAX_Assert changed from DTF_TIPLUGINS to DTF_AAXPLUGINS</LI>
+    <LI>Added example DTT script for signal cancellation testing to Development builds</LI>
+    <LI>Added DSP information tooltip feature to plug-in window header in Pro Tools</LI>
+  </UL>
+
+  \subsubsection aax_sdk_1p0p3_Documentation Documentation
+  <UL>
+    <LI>Win32 GUI example plug-in added to the SDK</LI>
+    <LI>Basic coefficient smoothing example plug-in added to SDK</LI>
+    <LI>Side Chain and Auxiliary Output Stem information page added to Doxygen</LI>
+    <LI>Resolved SetControlHighlightInfo() naming inconsistency in sample plug-ins</LI>
+    <LI>Expanded GUI information in %AAX Manual</LI>
+  </UL>
+
+
+\subsection aax_sdk_1p0p2 AAX SDK 1.0.2
+
+  \subsubsection aax_sdk_1p0p2_AAXLibrary AAX Library
+  <UL>
+    <LI>Moved %AAX Library source to /Libs directory</LI>
+    <LI>Added complete library source code and project files</LI>
+    <LI>Removed pre-compiled %AAX library binaries  </LI>
+  </UL>
+
+  \subsubsection aax_sdk_1p0p2_Documentation Documentation
+  <UL>
+    <LI>Added correct mouse event handling logic to DemoGain_GUIExtensions plug-ins</LI>
+    <LI>Added meters to DemoGain_Cocoa</LI>
+    <LI>New TI optimization case studies added to the TI Guide document</LI>
+  </UL>
+
+  \subsubsection aax_sdk_1p0p2_ResolvedBugs Resolved bugs
+  <UL>
+    <LI>PTSW-149745</LI>
+      <UL>
+      <LI>Loading code into external DSP memory is functional as of TI Shell build
+        10.1x828</LI>
+      </UL></LI>
+  </UL>
+
+
+ */

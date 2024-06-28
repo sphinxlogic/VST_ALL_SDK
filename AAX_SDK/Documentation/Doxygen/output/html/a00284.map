@@ -1,0 +1,10 @@
+<map id="AAX SDK Manual" name="AAX SDK Manual">
+<area shape="rect" id="node2" href="$a00319.html" title="Documentation for specific AAX host environments. " alt="" coords="205,5,331,30"/>
+<area shape="rect" id="node3" href="$a00285.html" title="A brief introduction to AAX. " alt="" coords="184,54,352,79"/>
+<area shape="rect" id="node4" href="$a00327.html" title="Extensions to the AAX SDK. " alt="" coords="225,103,311,129"/>
+<area shape="rect" id="node5" href="$a00286.html" title="Main classes, callbacks, and format specification details for a standard AAX plug&#45;in. " alt="" coords="200,153,336,178"/>
+<area shape="rect" id="node6" href="$a00293.html" title="How to use additional features and functionality supported by AAX. " alt="" coords="187,202,349,227"/>
+<area shape="rect" id="node7" href="$a00308.html" title="Additional information about the AAX design. " alt="" coords="207,251,329,277"/>
+<area shape="rect" id="node8" href="$a00303.html" title="AAX Library core support for the AAX interface " alt="" coords="196,301,340,326"/>
+<area shape="rect" id="node9" href="$a00331.html" title="Supplemental documents beyond the scope of the AAX SDK. " alt="" coords="181,350,355,375"/>
+</map>

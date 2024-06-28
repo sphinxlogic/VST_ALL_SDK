@@ -1,0 +1,6 @@
+<map id="AAX_CChunkDataParser::DataValue" name="AAX_CChunkDataParser::DataValue">
+<area shape="rect" id="node2" href="$a00038.html" title="A generic AAX string class with similar functionality to std::string. " alt="" coords="41,185,140,210"/>
+<area shape="rect" id="node3" href="$a00095.html" title="A simple string container that can be passed across a binary boundary. This class, for simplicity, is not versioned and thus can never change. " alt="" coords="5,97,99,122"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="123,97,201,122"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="100,6,225,45"/>
+</map>

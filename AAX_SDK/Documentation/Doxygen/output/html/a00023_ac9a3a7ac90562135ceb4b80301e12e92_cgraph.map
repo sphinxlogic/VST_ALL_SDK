@@ -1,0 +1,8 @@
+<map id="AAX_CMonolithicParameters::GenerateCoefficients" name="AAX_CMonolithicParameters::GenerateCoefficients">
+<area shape="rect" id="node2" href="$a00090.html#a85ce34797e0a9bb3cf05458757144cb9" title="Clone the parameter&#39;s value to a new AAX_IParameterValue object. " alt="" coords="248,5,445,30"/>
+<area shape="rect" id="node3" href="$a00016.html#a2aad1f84d38b40fee029629c53273a56" title="Access to the Effect controller. " alt="" coords="263,54,431,93"/>
+<area shape="rect" id="node4" href="$a00016.html#a8aef323e54aa6af7d4725048d2195594" title="Generates and dispatches new coefficient packets. " alt="" coords="263,117,431,155"/>
+<area shape="rect" id="node5" href="$a00090.html#a28807db424a720daa9880ed9ee5d4d21" title="Returns the parameter&#39;s unique identifier. " alt="" coords="257,179,437,205"/>
+<area shape="rect" id="node6" href="$a00075.html#aa9da6e2be07372e06ae6bf938ef286cb" title="CALL: Posts a data packet to the host for routing between plug&#45;in components. " alt="" coords="251,229,443,254"/>
+<area shape="rect" id="node7" href="$a00008.html#a2304d6ba1f1026b6a42de48056ab3050" title="AAX_CAtomicQueue::Push" alt="" coords="255,278,438,303"/>
+</map>

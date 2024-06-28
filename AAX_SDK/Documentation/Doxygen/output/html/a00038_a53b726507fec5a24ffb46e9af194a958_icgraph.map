@@ -1,0 +1,7 @@
+<map id="AAX_CString::Append" name="AAX_CString::Append">
+<area shape="rect" id="node2" href="$a00087.html#a459b5e82caa345b2d0e4f80d3d2a0a0b" title="AAX_IMIDIMessageInfoDelegate\l::ToString_AppendByteRange" alt="" coords="209,5,426,43"/>
+<area shape="rect" id="node3" href="$a00087.html#a020ec843c8ec267a5afa66415c3df95a" title="AAX_IMIDIMessageInfoDelegate\l::ToString_AppendCStr" alt="" coords="209,67,426,106"/>
+<area shape="rect" id="node5" href="$a00025.html#a6f5dbb73a4964340803bd2eb8cd9bd3c" title="Converts a real parameter value to a string representation. " alt="" coords="213,130,422,169"/>
+<area shape="rect" id="node6" href="$a00013.html#a943c0399511afb08604062004f4d5c5b" title="Converts a real parameter value to a string representation using a size hint, useful for control surf..." alt="" coords="214,193,421,231"/>
+<area shape="rect" id="node4" href="$a00087.html#acf29d3b4be3defe93bb3fad8dda3e7ea" title="AAX_IMIDIMessageInfoDelegate\l::ToString_AppendValid" alt="" coords="476,67,692,106"/>
+</map>

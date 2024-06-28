@@ -1,0 +1,9 @@
+<map id="AAX_ITaperDelegateBase" name="AAX_ITaperDelegateBase">
+<area shape="rect" id="node2" href="$a00096.html" title="Classes for conversion to and from normalized parameter values. " alt="" coords="229,131,406,157"/>
+<area shape="rect" id="node3" href="$a00011.html" title="A binary taper conforming to AAX_ITaperDelegate. " alt="" coords="454,5,674,30"/>
+<area shape="rect" id="node4" href="$a00019.html" title="A linear taper conforming to AAX_ITaperDelegate. " alt="" coords="454,54,674,79"/>
+<area shape="rect" id="node5" href="$a00020.html" title="A logarithmic taper conforming to AAX_ITaperDelegate. " alt="" coords="462,103,666,129"/>
+<area shape="rect" id="node6" href="$a00034.html" title="A piece&#45;wise linear taper conforming to AAX_ITaperDelegate. " alt="" coords="465,153,663,191"/>
+<area shape="rect" id="node7" href="$a00035.html" title="A piecewise&#45;linear taper conforming to AAX_ITaperDelegate. " alt="" coords="453,215,675,241"/>
+<area shape="rect" id="node8" href="$a00037.html" title="A linear taper conforming to AAX_ITaperDelegate. " alt="" coords="457,265,671,290"/>
+</map>

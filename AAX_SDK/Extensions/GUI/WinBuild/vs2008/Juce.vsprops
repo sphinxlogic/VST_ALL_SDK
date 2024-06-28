@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualStudioPropertySheet ProjectType="Visual C++" Version="8.00" Name="Juce">
+  <UserMacro Name="JuceSourceDir" Value="..\..\..\..\..\external\juce" />
+  <UserMacro Name="PropsIntDir" Value="int\$(ConfigurationName)\$(ProjectName)\$(PlatformName)" />
+</VisualStudioPropertySheet>

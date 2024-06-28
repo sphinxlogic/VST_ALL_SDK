@@ -1,0 +1,28 @@
+﻿  Create Package Directories
+  Set Folder Icon
+  File not found - Debug\RectiFi_example.aaxplugin\Contents\Win32\\..\..\desktop.ini
+  RectiFi_Describe.cpp
+c:\users\jonathan_moore\documents\nbic\vst framework\aax_sdk\aax_sdk_2p2p1\interfaces\aax_cparameter.h(190): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+  c:\users\jonathan_moore\documents\nbic\vst framework\aax_sdk\aax_sdk_2p2p1\interfaces\aax_cparameter.h(185): note: while compiling class template member function 'void AAX_CParameterValue<bool>::InitIdentifier(const char *)'
+  c:\users\jonathan_moore\documents\nbic\vst framework\aax_sdk\aax_sdk_2p2p1\interfaces\aax_cparameter.h(139): note: see reference to function template instantiation 'void AAX_CParameterValue<bool>::InitIdentifier(const char *)' being compiled
+  c:\users\jonathan_moore\documents\nbic\vst framework\aax_sdk\aax_sdk_2p2p1\interfaces\aax_cparameter.h(137): note: while compiling class template member function 'AAX_CParameterValue<bool>::AAX_CParameterValue(const AAX_CParameterValue<bool> &)'
+  c:\users\jonathan_moore\documents\nbic\vst framework\aax_sdk\aax_sdk_2p2p1\interfaces\aax_cparameter.h(93): note: see reference to function template instantiation 'AAX_CParameterValue<bool>::AAX_CParameterValue(const AAX_CParameterValue<bool> &)' being compiled
+  c:\users\jonathan_moore\documents\nbic\vst framework\aax_sdk\aax_sdk_2p2p1\interfaces\aax_cparameter.h(148): note: see reference to class template instantiation 'AAX_CParameterValue<bool>' being compiled
+c:\users\jonathan_moore\documents\nbic\vst framework\aax_sdk\aax_sdk_2p2p1\interfaces\aax_cparameter.h(195): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+  RectiFi_EffectParameters.cpp
+c:\users\jonathan_moore\documents\nbic\vst framework\aax_sdk\aax_sdk_2p2p1\interfaces\aax_cparameter.h(190): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+  c:\users\jonathan_moore\documents\nbic\vst framework\aax_sdk\aax_sdk_2p2p1\interfaces\aax_cparameter.h(185): note: while compiling class template member function 'void AAX_CParameterValue<bool>::InitIdentifier(const char *)'
+  c:\users\jonathan_moore\documents\nbic\vst framework\aax_sdk\aax_sdk_2p2p1\interfaces\aax_cparameter.h(139): note: see reference to function template instantiation 'void AAX_CParameterValue<bool>::InitIdentifier(const char *)' being compiled
+  c:\users\jonathan_moore\documents\nbic\vst framework\aax_sdk\aax_sdk_2p2p1\interfaces\aax_cparameter.h(137): note: while compiling class template member function 'AAX_CParameterValue<bool>::AAX_CParameterValue(const AAX_CParameterValue<bool> &)'
+  c:\users\jonathan_moore\documents\nbic\vst framework\aax_sdk\aax_sdk_2p2p1\interfaces\aax_cparameter.h(93): note: see reference to function template instantiation 'AAX_CParameterValue<bool>::AAX_CParameterValue(const AAX_CParameterValue<bool> &)' being compiled
+  c:\users\jonathan_moore\documents\nbic\vst framework\aax_sdk\aax_sdk_2p2p1\interfaces\aax_cparameter.h(148): note: see reference to class template instantiation 'AAX_CParameterValue<bool>' being compiled
+c:\users\jonathan_moore\documents\nbic\vst framework\aax_sdk\aax_sdk_2p2p1\interfaces\aax_cparameter.h(195): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+  RectiFi_AlgProc.cpp
+  AAX_Exports.cpp
+  Generating Code...
+RectiFi_Describe.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+LINK : fatal error LNK1181: cannot open input file '..\..\..\..\Libs\Debug\AAXLibrary_D.lib'

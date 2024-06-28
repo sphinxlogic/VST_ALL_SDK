@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='US-ASCII' standalone='yes'?>
+<PageTables vers='0.0.0.2'>
+<PageTableLayouts>
+<Plugin manID='Digi' prodID='RcFi' plugID='D1RF'>
+  <Desc> </Desc>
+  <Layout>PageTable 1</Layout>
+</Plugin><!--manID='Digi' prodID='RcFi' plugID='D1RF'-->
+<Plugin manID='Digi' prodID='RcFi' plugID='D2RF'>
+  <Desc> </Desc>
+  <Layout>PageTable 1</Layout>
+</Plugin><!--manID='Digi' prodID='RcFi' plugID='D2RF'-->
+<Plugin manID='Digi' prodID='RcFi' plugID='T1RF'>
+  <Desc> </Desc>
+  <Layout>PageTable 1</Layout>
+</Plugin><!--manID='Digi' prodID='RcFi' plugID='T1RF'-->
+<Plugin manID='Digi' prodID='RcFi' plugID='T2RF'>
+  <Desc> </Desc>
+  <Layout>PageTable 1</Layout>
+</Plugin>
+<!--manID='Digi' prodID='RcFi' plugID='T2RF'-->
+<Plugin manID='Digi' prodID='RcFi' plugID='11RF'>
+  <Desc> </Desc>
+  <Layout>PageTable 1</Layout>
+</Plugin><!--manID='Digi' prodID='RcFi' plugID='11RF'-->
+<Plugin manID='Digi' prodID='RcFi' plugID='22RF'>
+  <Desc> </Desc>
+  <Layout>PageTable 1</Layout>
+</Plugin><!--manID='Digi' prodID='RcFi' plugID='22RF'-->
+<Plugin manID='Digi' prodID='RcFi' plugID='HMRF'>
+  <Desc>Recti-Fi 1 -&gt; 1 by Avid Technology, Inc.</Desc>
+  <Layout>PageTable 1</Layout>
+</Plugin><!--manID='Digi' prodID='RcFi' plugID='HMRF'-->
+<Plugin manID='Digi' prodID='RcFi' plugID='HSRF'>
+  <Desc>Recti-Fi 2 -&gt; 2 by Avid Technology, Inc.</Desc>
+  <Layout>PageTable 1</Layout>
+</Plugin><!--manID='Digi' prodID='RcFi' plugID='HSRF'-->
+<PTLayout name='PageTable 1'>
+  <PageTable type='BkCS' pgsz='12'>
+    <Page num='1'>
+      <ID> </ID>
+      <ID>Mix</ID>
+      <ID>Post-Filter</ID>
+      <ID>Gain</ID>
+      <ID>Rectification</ID>
+      <ID>Pre-Filter</ID>
+      <ID> </ID>
+      <ID> </ID>
+      <ID> </ID>
+      <ID> </ID>
+    </Page><!--num='1'-->
+  </PageTable><!--type='BkCS' pgsz='12'-->
+  <PageTable type='FrTL' pgsz='24'>
+    <Page num='1'>
+      <ID>Pre-Filter</ID>
+      <ID> </ID>
+      <ID>Rectification</ID>
+      <ID> </ID>
+      <ID>Gain</ID>
+      <ID>Post-Filter</ID>
+      <ID>Mix</ID>
+    </Page><!--num='1'-->
+    <FirstPg cat='0'>1</FirstPg>
+    <FirstPg cat='1'>1</FirstPg>
+    <FirstPg cat='2'>1</FirstPg>
+    <FirstPg cat='4'>1</FirstPg>
+    <FirstPg cat='8'>1</FirstPg>
+    <FirstPg cat='16'>1</FirstPg>
+    <FirstPg cat='32'>1</FirstPg>
+    <FirstPg cat='64'>1</FirstPg>
+    <FirstPg cat='128'>1</FirstPg>
+    <FirstPg cat='256'>1</FirstPg>
+    <FirstPg cat='512'>1</FirstPg>
+    <FirstPg cat='1024'>1</FirstPg>
+    <FirstPg cat='2048'>1</FirstPg>
+  </PageTable><!--type='FrTL' pgsz='24'-->
+  <PageTable type='HgTL' pgsz='8'>
+    <Page num='1'>
+      <ID>Pre-Filter</ID>
+      <ID> </ID>
+      <ID>Rectification</ID>
+      <ID> </ID>
+      <ID>Gain</ID>
+      <ID>Post-Filter</ID>
+      <ID>Mix</ID>
+    </Page><!--num='1'-->
+    <FirstPg cat='0'>1</FirstPg>
+    <FirstPg cat='1'>1</FirstPg>
+    <FirstPg cat='2'>1</FirstPg>
+    <FirstPg cat='4'>1</FirstPg>
+    <FirstPg cat='8'>1</FirstPg>
+    <FirstPg cat='16'>1</FirstPg>
+    <FirstPg cat='32'>1</FirstPg>
+    <FirstPg cat='64'>1</FirstPg>
+    <FirstPg cat='128'>1</FirstPg>
+    <FirstPg cat='256'>1</FirstPg>
+    <FirstPg cat='512'>1</FirstPg>
+    <FirstPg cat='1024'>1</FirstPg>
+    <FirstPg cat='2048'>1</FirstPg>
+  </PageTable><!--type='HgTL' pgsz='8'-->
+  <PageTable type='MkTL' pgsz='8'>
+    <Page num='1'>
+      <ID> </ID>
+      <ID> </ID>
+      <ID> </ID>
+      <ID> </ID>
+      <ID>Pre-Filter</ID>
+      <ID>Rectification</ID>
+      <ID>Gain</ID>
+      <ID>Post-Filter</ID>
+    </Page><!--num='1'-->
+    <Page num='2'>
+      <ID> </ID>
+      <ID> </ID>
+      <ID> </ID>
+      <ID> </ID>
+      <ID>Mix</ID>
+    </Page><!--num='2'-->
+    <FirstPg cat='0'>1</FirstPg>
+    <FirstPg cat='1'>1</FirstPg>
+    <FirstPg cat='2'>1</FirstPg>
+    <FirstPg cat='4'>1</FirstPg>
+    <FirstPg cat='8'>1</FirstPg>
+    <FirstPg cat='16'>1</FirstPg>
+    <FirstPg cat='32'>1</FirstPg>
+    <FirstPg cat='64'>1</FirstPg>
+    <FirstPg cat='128'>1</FirstPg>
+    <FirstPg cat='256'>1</FirstPg>
+    <FirstPg cat='512'>1</FirstPg>
+    <FirstPg cat='1024'>1</FirstPg>
+    <FirstPg cat='2048'>1</FirstPg>
+  </PageTable><!--type='MkTL' pgsz='8'-->
+  <PageTable type='PcTL' pgsz='16'>
+    <Page num='1'>
+      <ID>Pre-Filter</ID>
+      <ID>Rectification</ID>
+      <ID>Gain</ID>
+      <ID>Post-Filter</ID>
+      <ID>Mix</ID>
+    </Page><!--num='1'-->
+    <FirstPg cat='0'>1</FirstPg>
+    <FirstPg cat='1'>1</FirstPg>
+    <FirstPg cat='2'>1</FirstPg>
+    <FirstPg cat='4'>1</FirstPg>
+    <FirstPg cat='8'>1</FirstPg>
+    <FirstPg cat='16'>1</FirstPg>
+    <FirstPg cat='32'>1</FirstPg>
+    <FirstPg cat='64'>1</FirstPg>
+    <FirstPg cat='128'>1</FirstPg>
+    <FirstPg cat='256'>1</FirstPg>
+    <FirstPg cat='512'>1</FirstPg>
+    <FirstPg cat='1024'>1</FirstPg>
+    <FirstPg cat='2048'>1</FirstPg>
+  </PageTable><!--type='PcTL' pgsz='16'-->
+  <PageTable type='PgTL' pgsz='1'>
+    <Page num='1'>
+      <ID>Master Bypass</ID>
+    </Page><!--num='1'-->
+    <Page num='2'>
+      <ID>Pre-Filter</ID>
+    </Page><!--num='2'-->
+    <Page num='3'>
+      <ID>Rectification</ID>
+    </Page><!--num='3'-->
+    <Page num='4'>
+      <ID>Gain</ID>
+    </Page><!--num='4'-->
+    <Page num='5'>
+      <ID>Post-Filter</ID>
+    </Page><!--num='5'-->
+    <Page num='6'>
+      <ID>Mix</ID>
+    </Page><!--num='6'-->
+  </PageTable><!--type='PgTL' pgsz='1'-->
+</PTLayout><!--name='PageTable 1'-->
+</PageTableLayouts>
+<ControlNamesVariations>
+  <Ctrl ID='Gain'>
+    <name typ='PgTL' sz='1'>Gn</name>
+  </Ctrl><!--ID='Gain'-->
+  <Ctrl ID='Master Bypass'>
+    <name typ='PgTL' sz='1'>MByp</name>
+  </Ctrl><!--ID='Master Bypass'-->
+  <Ctrl ID='Post-Filter'>
+    <name typ='PgTL' sz='1'>PsF</name>
+    <name typ='PgTL' sz='4'>PstF</name>
+    <name typ='PgTL' sz='6'>PostFl</name>
+    <name typ='PgTL' sz='8'>PostFilt</name>
+  </Ctrl><!--ID='Post-Filter'-->
+  <Ctrl ID='Pre-Filter'>
+    <name typ='PgTL' sz='1'>PrF</name>
+    <name typ='PgTL' sz='4'>PreF</name>
+    <name typ='PgTL' sz='6'>PreFil</name>
+    <name typ='PgTL' sz='8'>PreFiltr</name>
+    </Ctrl><!--ID='Pre-Filter'-->
+  <Ctrl ID='Rectification'>
+    <name typ='PgTL' sz='1'>Rct</name>
+    <name typ='PgTL' sz='4'>Rect</name>
+    <name typ='PgTL' sz='6'>Rectfi</name>
+    <name typ='PgTL' sz='7'>Rectifi</name>
+  </Ctrl><!--ID='Rectification'-->
+</ControlNamesVariations>
+<Editor vers='1.0.0.2'>
+  <PluginList>
+    <TDM>
+      <PluginID manID='Digi' prodID='RcFi' plugID='11RF'>
+        <MenuStr>TDM:  Recti-Fi, 1 in X 1 out</MenuStr>
+      </PluginID><!--manID='Digi' prodID='RcFi' plugID='11RF'-->
+      <PluginID manID='Digi' prodID='RcFi' plugID='22RF'>
+        <MenuStr>TDM:  Recti-Fi, 2 in X 2 out</MenuStr>
+      </PluginID><!--manID='Digi' prodID='RcFi' plugID='22RF'-->
+    </TDM>
+    <RTAS>
+      <PluginID manID='Digi' prodID='RcFi' plugID='HMRF'>
+        <MenuStr>RTAS: Recti-Fi, 1 in X 1 out</MenuStr>
+      </PluginID><!--manID='Digi' prodID='RcFi' plugID='HMRF'-->
+      <PluginID manID='Digi' prodID='RcFi' plugID='HSRF'>
+        <MenuStr>RTAS: Recti-Fi, 2 in X 2 out</MenuStr>
+      </PluginID><!--manID='Digi' prodID='RcFi' plugID='HSRF'-->
+    </RTAS>
+  </PluginList>
+  <DiscCtrls>
+    <CtrlID>Master Bypass</CtrlID>
+    <CtrlID>Rectification</CtrlID>
+    </DiscCtrls>
+</Editor><!--vers='1.0.0.2'-->
+</PageTables><!--vers='0.0.0.2'-->
